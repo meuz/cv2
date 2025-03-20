@@ -1,132 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Currículum</title>
-    <style>
-        body {
-            font-family: sans-serif;
-        }
-        th:hover {
-                background-color:rgb(162, 204, 232);
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Currículum</title>
+        <style>
+            body {
+                font-family: sans-serif;
             }
-        tr:hover {
-                background-color:rgb(111, 171, 210);
+            
+            table {
+                width: 80%;
+                border-collapse: collapse;
             }
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .titulos {
-            background-color: #e0e0e0;
-            font-weight: bold;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-    <colgroup>
-        <col span="2" style="background-color: black;">
-    </colgroup>
-</head>
-<body>
+            th, td {
+                border: 1px solid #ddd;
+                background-color: #ffffff;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+            .titulos {
+                background-color: #e0e0e0;
+                font-weight: bold;
+                text-align: center;
+            }
+            .texto:hover{
+                background-color: rgb(209, 235, 239);
+            }
+            .texto2:hover{
+                background-color: rgb(170, 205, 241);
+            }
+        </style>
+    </head>
 
-    <table>
-        <tr>
-            <td colspan="2" class="titulos">Información Personal</td>
-        </tr>
-        <tr>
-            <th>Nombre</th>
-            <td>Francisco Sepúlveda</td>
-        </tr>
-        <tr>
-            <th>Correo Electrónico</th>
-            <td>francisco.sepulveda92@inacapmail.cl</td>
-        </tr>
-        <tr>
-            <th>Teléfono</th>
-            <td>9 4505 0951</td>
-        </tr>
-        <tr>
-            <th>Dirección</th>
-            <td>Javiera Carrera #1330</td>
-        </tr>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2" class="titulos">Información Personal</td>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <td class="texto2">Francisco Sepúlveda</td>
+            </tr>
+            <tr>
+                <th>Correo Electrónico</th>
+                <td class="texto">francisco.sepulveda92@inacapmail.cl</td>
+            </tr>
+            <tr>
+                <th>Teléfono</th>
+                <td class="texto2">9 4505 0951</td>
+            </tr>
+            <tr>
+                <th>Dirección</th>
+                <td class="texto">Javiera Carrera #1330</td>
+            </tr>
 
-        <tr>
-            <td colspan="2" class="titulos">Experiencia Laboral</td>
-        </tr>
-        <tr>
-            <th>Puesto</th>
-            <td>Tu Puesto</td>
-        </tr>
-        <tr>
-            <th>Empresa</th>
-            <td>Nombre de la Empresa</td>
-        </tr>
-        <tr>
-            <th>Periodo</th>
-            <td>Mes Año - Mes Año</td>
-        </tr>
-        <tr>
-            <th>Descripción</th>
-            <td>Descripción de tus responsabilidades y logros.</td>
-        </tr>
-                <tr>
-            <th>Puesto</th>
-            <td>Tu Puesto</td>
-        </tr>
-        <tr>
-            <th>Empresa</th>
-            <td>Nombre de la Empresa</td>
-        </tr>
-        <tr>
-            <th>Periodo</th>
-            <td>Mes Año - Mes Año</td>
-        </tr>
-        <tr>
-            <th>Descripción</th>
-            <td>Descripción de tus responsabilidades y logros.</td>
-        </tr>
+            <tr>
+                <td colspan="2" class="titulos">Experiencia Laboral</td>
+            </tr>
+            <tr>
+                <th>Puesto</th>
+                <td class="texto2">Conserje</td>
+            </tr>
+            <tr>
+                <th>Empresa</th>
+                <td class="texto">Desconocida</td>
+            </tr>
+            <tr>
+                <th>Periodo</th>
+                <td class="texto2">Dic/2023 - Mar/2025</td>
+            </tr>
+            <tr>
+                <th>Descripción</th>
+                <td class="texto">Control de transito, limpieza del frontis, manejo de encomiendas y pedidos de comida.</td>
+            
+            <tr>
+                <td colspan="2" class="titulos">Formación académica</td>
+            </tr>
+            <tr>
+                <th>Nivel de estudios</th>
+                <td class="texto2">4to Medio</td>
+            </tr>
+            <tr>
+                <th>Institución</th>
+                <td class="texto">Santa Cruz Freire</td>
+            </tr>
+            <tr>
 
-        <tr>
-            <td colspan="2" class="titulos">Educación</td>
-        </tr>
-        <tr>
-            <th>Título:</th>
-            <td>Tu Título</td>
-        </tr>
-        <tr>
-            <th>Institución:</th>
-            <td>Nombre de la Institución</td>
-        </tr>
-        <tr>
-            <th>Periodo:</th>
-            <td>Año - Año</td>
-        </tr>
-                <tr>
-            <th>Título:</th>
-            <td>Tu Título</td>
-        </tr>
-        <tr>
-            <th>Institución:</th>
-            <td>Nombre de la Institución</td>
-        </tr>
-        <tr>
-            <th>Periodo:</th>
-            <td>Año - Año</td>
-        </tr>
-
-        <tr>
-            <td colspan="2" class="titulos">Habilidades</td>
-        </tr>
-        <tr>
-</body>
+            <tr>
+                <td colspan="2" class="titulos">Habilidades</td>
+            </tr>
+            
+            <tr>
+                <th></th>
+                <td colspan="2" class="texto2">Cocinar panqueques :b</td>
+            </tr>
+            <tr>
+    </body>
+</html>
